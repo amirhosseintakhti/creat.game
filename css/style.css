@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+.r-35{
+    border-radius: 35px;
+    overflow: hidden;
+}
+.bg{
+    background-color: rgb(59, 36, 36);
+    position: absolute;
+    top: 25px;
+    bottom: 25px;
+    right: 25px;
+    left: 25px;
+}
+.block-n1{
+    background-color: aqua;
+    position: relative;
+    width: 100px;
+    height: 250px;
+    top: 100px;
+    left: 100px;
+}
+.block-n2{
+    background-color: rgb(255, 136, 0);
+    transform: rotate(90deg);
+    top: 0px;
+    left: 175px;
+
+
+
+}
+.tank1{
+    position: absolute;
+    width: 50px;
+
+}
+.tank2{
+    position: absolute;
+    width: 50px;
+
+}
