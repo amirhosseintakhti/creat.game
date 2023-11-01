@@ -33,6 +33,7 @@ body{
 .tank1{
     position: absolute;
     width: 50px;
+    transition: all 0.4s;
 
 }
 .tank2{

@@ -33,7 +33,9 @@ document.onkeydown = function (e) {
 };
 
 function moveUp() {
-    alert ('up');
+    // alert ('up');
+    const currentposition = tank1.style.top.replace(/px/g, '');
+    tank1.style.top = +currentposition - 20 + "px";
 }
 function moveDown() {
     alert ('Down');
